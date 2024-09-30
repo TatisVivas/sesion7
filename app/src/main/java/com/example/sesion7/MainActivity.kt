@@ -19,8 +19,6 @@ class MainActivity : AppCompatActivity() {
             //this es listener y basecontext actividad
             startActivity(Intent(baseContext, GoogleMapsActivity::class.java))
         }
-        binding.osmaps.setOnClickListener {
-            startActivity(Intent(baseContext, OSMapsActivity::class.java))
-        }
+
     }
 }
